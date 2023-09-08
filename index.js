@@ -4,29 +4,27 @@ const arrayOfObjects = [
   { name: "Bob", age: 35 },
 ];
 
-console.dir(arrayOfObjects)
+console.dir(arrayOfObjects);
 const startTime = Date.now();
 let count = 0;
 for (let i = 0; i < 1000000; i++) {
   count++;
 }
 const endTime = Date.now();
-const timeTaken = endTime - startTime
+const timeTaken = endTime - startTime;
 
-console.log(startTime, endTime, timeTaken,"ms")
+console.log(startTime, endTime, timeTaken, "ms");
 
-console.time('myTimer');
+console.time("myTimer");
 // Code to be timed
 for (let i = 0; i < 10000; i++) {
-    count++;
-  }
-console.timeEnd('myTimer');
-console.clear()
+  count++;
+}
+console.timeEnd("myTimer");
+console.clear();
 function foo() {
-    return{
-        value: 42
-    };
+  return {
+    value: 42,
+  };
 }
 console.log(foo()); // Outputs 'undefined' because of ASI
-
-
