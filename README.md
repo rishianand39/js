@@ -40,3 +40,6 @@ let result = num + str; // JavaScript converts `num` to a string and performs co
 4. After the type coercion, both operands are of the same type (both are strings), so the comparison becomes "5" == "5".
 
 5. Now, with both operands being strings, the loose equality operator (==) performs a character-by-character comparison, and it finds that the two strings are identical. Therefore, the condition is true.
+
+## Hoisting
+https://blog.devgenius.io/hoisting-in-javascript-c90f6d03d2df

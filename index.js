@@ -13,7 +13,8 @@ for (let i = 0; i < 1000000; i++) {
 const endTime = Date.now();
 const timeTaken = endTime - startTime;
 
-console.log(startTime, endTime, timeTaken, "ms");
+console.log(timeTaken, "ms");
+
 
 console.time("myTimer");
 // Code to be timed
@@ -28,3 +29,12 @@ function foo() {
   };
 }
 console.log(foo()); // Outputs 'undefined' because of ASI
+
+
+// HOISTING
+console.clear()
+let rah="10"
+console.log(rah)
+var message="Rishi Come here"
+console.clear()
+console.log(global)
