@@ -21,5 +21,5 @@
 // // speak.call( me ); // Hello, I'm KYLE
 // // speak.call( you ); // Hello, I'm READER
 
-let a=5
-console.log()
+
+
