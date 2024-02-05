@@ -1,3 +1,4 @@
+// PROMISE IN JAVASCRIPT
 let p1 = Promise.resolve(1);
 let p2 = new Promise((resolve) => {
   setTimeout(() => {
