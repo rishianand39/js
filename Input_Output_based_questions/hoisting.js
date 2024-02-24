@@ -1,3 +1,8 @@
+// HOISTING 
+// TEMPERAL DEAD ZONE 
+// REFERENCE ERROR
+//SYNTAX ERROR
+
 const name;  //SyntaxError: Missing initializer in const declaration
 
 function sayHi() {
