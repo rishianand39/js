@@ -2,11 +2,11 @@
 
 let array = [1, 2, 3, 4, 5];
 
-// array.forEach((element)=>{
-//     console.log(element*2)
-// })
-
+array.forEach((element)=>{
+    console.log(element*2)
+})
 Array.prototype.forEach = null;
+
 
 if (!Array.prototype.forEach) {
   Array.prototype.forEach = function (callBack) {
@@ -15,6 +15,6 @@ if (!Array.prototype.forEach) {
     }
   };
 }
-array.forEach((element) => {
-  console.log(element * 2);
-});
+// array.forEach((element) => {
+//   console.log(element * 2);
+// });
